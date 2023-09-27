@@ -22,6 +22,7 @@ user_states = {}  # состояние пользователя
 async def start(message: Message):
     await message.answer('Welcome to the DCG Currency Converter Bot!', reply_markup=kb.main)
     await message.answer('Нажмите на любую кнопку из Меню')
+    await message.answer('http://5.42.78.98/')
 
 
 @router.message(F.text == 'EUR TO USD')
