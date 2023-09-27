@@ -1,1 +1,14 @@
-p
+python3 -m venv venv
+source venv/bin/activate
+pip install aiogram
+python3 bot
+
+ctrl + c
+deactivate
+
+cd dir
+rm -> delete
+rm home/run.py -> example
+rm -r recursive delete (full)
+rm -rf recusive force delete (if worked but need delete)
+rm -rf home/ -> example
