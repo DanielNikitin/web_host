@@ -15,7 +15,7 @@ async def main():
 # Функция main() запускается только в случае если скрипт запущен с этого файла
 if __name__ == '__main__':
     try:
-        asyncio.run(main())
         print("BOT STARTED")
+        asyncio.run(main())
     except KeyboardInterrupt:
         print('Exit')
