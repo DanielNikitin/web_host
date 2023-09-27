@@ -3,12 +3,40 @@ source venv/bin/activate
 pip install aiogram
 python3 bot
 
-ctrl + c
-deactivate
+---------------------
 
-cd dir
+clear
+
+---------
+
+start bot from venv, then ->
+
+screen -S bot
+ctrl + a, ctrl + d
+
+if need move back to bot screen
+screen -r name
+screen -ls  -> list of all screens
+
+--------------
+
+ctrl + c  -> stop bot
+deactivate  -> off venv
+
+------------------
+
+cd name  -> move to dir
 rm -> delete
 rm home/run.py -> example
 rm -r recursive delete (full)
 rm -rf recusive force delete (if worked but need delete)
 rm -rf home/ -> example
+
+
+nano scripts.sh  VIM redactor
+right click mouse button  paste
+ctrl + x  save 
+sh script.sh  start
+
+LAMP full web packet
+installing same as Django (upper)
