@@ -16,5 +16,6 @@ async def main():
 if __name__ == '__main__':
     try:
         asyncio.run(main())
+        print("BOT STARTED")
     except KeyboardInterrupt:
         print('Exit')
