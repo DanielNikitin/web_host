@@ -2,11 +2,20 @@ https://my.aeza.net/
 
 -----------------------
 
+sudo apt-get update
+sudo apt-get -y upgrade
+python3 -V
+sudo apt-get install -y python3-pip
+pip3 install package_name
+sudo apt-get install -y python3-venv
+
+use the mkdir command to build a new directory
+mkdir newdir_example
+
 python3 -m venv venv
 source venv/bin/activate
-pip install aiogram
-python3 bot
 
+DONE
 ---------------------
 
 clear
@@ -44,3 +53,9 @@ sh script.sh  start
 
 LAMP full web packet
 installing same as Django (upper)
+
+
+---------------------
+
+systemctl status <name>
+apache2 / nginx
