@@ -60,6 +60,8 @@ sudo apt-get install screen
 screen -S name  - запустить screen под именем name 
 screen -ls - список screen's
 screen -r name - подключится к сеансу name (тот что активирован будет указан Attached)
+Ctrl + A, :quit - чтобы завершить сеанс
+
 
 Для того чтобы отсоединиться от сеанса screen, нажмите Ctrl + A, затем D (Ctrl+A, D). 
 
