@@ -15,21 +15,12 @@ mkdir newdir_example
 python3 -m venv venv
 source venv/bin/activate
 
+psycopg2-binary
+
 DONE
 ---------------------
 
 clear
-
----------
-
-start bot from venv, then ->
-
-screen -S bot
-ctrl + a, ctrl + d
-
-if need move back to bot screen
-screen -r name
-screen -ls  -> list of all screens
 
 --------------
 
@@ -59,3 +50,23 @@ installing same as Django (upper)
 
 systemctl status <name>
 apache2 / nginx
+
+---------------------
+
+pgrep name
+kill id
+-----------------------
+
+sudo apt-get install screen
+
+screen -S name  - запустить screen под именем name 
+screen -ls - список screen's
+screen -r name - подключится к сеансу name (тот что активирован будет указан Attached)
+Ctrl + A, :quit - чтобы завершить сеанс
+
+
+Для того чтобы отсоединиться от сеанса screen, нажмите Ctrl + A, затем D (Ctrl+A, D). 
+
+Если у вас есть несколько сеансов screen, у вас будет предложено выбрать, к какому сеансу вы хотите подключиться. Вы можете также указать идентификатор сеанса после -r, если он известен.
+
+Чтобы завершить сеанс screen, вернитесь к нему с помощью screen -r, а затем выполните команду, которую вы хотите завершить. После завершения работы нажмите Ctrl + D, чтобы выйти из сеанса screen.
